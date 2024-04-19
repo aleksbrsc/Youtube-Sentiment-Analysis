@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+#container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.50) 26.78%, rgba(153, 253, 151, 0.50) 106.29%);
+}
+
+main {
+    margin-left: 6rem;
+    font-family: "DM Sans", sans-serif;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+input {
+    border: 1px solid #000;
+    background: #D9D9D9;
+    background-image: url('@resources/submit.svg');
+    background-repeat: no-repeat;
+    background-position: 37.5rem;
+    width: 35rem;
+    height: 4rem;
+    flex-shrink: 0;
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.75rem;
+    padding-left: 1.5rem;
+    padding-right: 4rem;
+    box-shadow: 6px 6px 0px 0px #000;
+    transition: ease 0.2s;
+}
+
+input:focus {
+    outline: none;
+    scale: 1.05;
+}
+
+button {
+    position: absolute;
+    opacity: 0;
+    left: 43.2rem; 
+    top: 51%;
+    width: 4rem;
+    height: 4rem;
+    z-index: 2;
+    padding: 0;
+    cursor: pointer;
+}
+
+p {
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 1.5625rem;
+    font-style: italic;
+    font-weight: 400;
+}
