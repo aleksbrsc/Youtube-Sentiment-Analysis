@@ -18,13 +18,14 @@ h1 {
     font-style: normal;
     font-weight: 400;
     line-height: 1.2;
+    margin-top: 1.2rem;
     margin-bottom: 1rem;
 }
 
 input {
     border: 1px solid #000;
     background: #D9D9D9;
-    background-image: url('@resources/submit.svg');
+    background-image: url('@resources/landing/submit.svg');
     background-repeat: no-repeat;
     background-position: 37.5rem;
     width: 35rem;
@@ -60,4 +61,49 @@ p {
     font-size: 1.5625rem;
     font-style: italic;
     font-weight: 400;
+}
+
+#graphics {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.graphic {
+    position: absolute;
+}
+
+#curved_panel {
+    right: 6rem;
+    top: 11rem;
+}
+
+#pie_chart_3d {
+    right: 20rem;
+    top: 22rem;
+}
+
+#thumbs_up {
+    right: 29rem;
+    top: 19rem;
+}
+
+#speech_bubble {
+    right: 17rem;
+    top: 17rem;
+}
+
+#play_button {
+    right: 19rem;
+    top: 28rem;
+}
+
+#stars_review {
+    right: 25rem;
+    top: 23.5rem;
+}
+
+#pie_chart {
+    right: 18rem;
+    top: 32rem;
 }
