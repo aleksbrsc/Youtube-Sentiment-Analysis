@@ -110,6 +110,24 @@ p {
     top: 32rem;
 }
 
+/* 3d model */
+
+#bee_area {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bee_canvas {
+    min-width: 10rem;
+    min-height: 10rem;
+    width: 60%;
+    height: 60%;
+    filter: saturate(1.1);
+}
+
 /* matter.js */
 
 canvas {
